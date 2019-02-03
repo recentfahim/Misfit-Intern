@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(233, 233, 233);
+  font-family: Calibri;
+}
+
+#despic1 {
+  background-color: rgb(97, 12, 196);
+  border-radius: 10px;
+  padding: 30px;
+  margin: 15px 15px;
+}
+#despic2 {
+  background-color: gray;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 20px 20px;
+}
+.round {
+  border-radius: 10px;
+  width: 48.5%;
+}
+#left-round {
+  width: 86%;
+}
+#right-round {
+  width: 95%;
+  float: right;
+}
+#text-al-right {
+  width: 325px;
+  margin-left: 26px;
+}
+.circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+
+  /* justify-items: center; */
+  /* justify-self: center; */
+}
+
+#btn1 {
+  border: none;
+  background-color: darkorange;
+}
+#btn2 {
+  background-color: gray;
+  border: none;
+}
+@media only screen and (max-width: 992px) {
+  .d-flex {
+    display: block;
+  }
+  .pic {
+    height: 70px;
+    width: 70px;
+  }
+  .row {
+    flex-wrap: nowrap;
+  }
+}
+.nav-color {
+  color: white;
+}
+.nav-color button {
+  color: darkorange;
+  background-color: white;
+}
+.pic-center{
+  margin-top: 35px;
+  margin-left: 35px;
+}
+
+.user-pic {
+  height: 150px;
+  width: 150px;
+  background-color: white;
+  position: absolute;
+  left: calc(50% - 75px);
+  top: 115px;
+}
+
+#con {
+  background-image: url(color-background.svg);
+  position: relative;
+  height: 195px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
